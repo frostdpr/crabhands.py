@@ -37,7 +37,7 @@ crabhands.py is a Python script that creates and maintains a Spotify playlist of
 
    For multi-account setup: It is necessary to authenticate each account in a separate browser window and give the script the redirect URL per account. 
 
-## Automation
+## Automation Example
    ### On Linux/macOS (using `crontab`)
 
 1. **Ensure your virtual environment and environment variables are set up.**  
