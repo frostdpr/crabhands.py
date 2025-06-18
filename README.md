@@ -1,6 +1,6 @@
 # crabhands.py
 
-crabhands.py is a Python script that creates and maintains a Spotify playlist of new releases from the artists you follow. It uses [Spotipy](https://spotipy.readthedocs.io/) to interact with the Spotify Web API.
+crabhands.py is a Python script that creates and maintains a Spotify playlist of new releases from the artists you follow. It uses [Spotipy](https://spotipy.readthedocs.io/) to interact with the Spotify Web API. Inspired by [its namesake](https://www.crabhands.com/).
 
 ## Features
 
