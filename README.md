@@ -69,7 +69,7 @@ crabhands.py is a Python script that creates and maintains a Spotify playlist of
 ### On Windows (using Task Scheduler)
 
 1. **Create a batch file** (e.g., `run_crabhands.bat`) with the following content:
-   ```
+   ```bat
    cd /d C:\path\to\crabhands
    .\venv\Scripts\Activate.ps1
    set SPOTIFY_CLIENT_ID=your_client_id
