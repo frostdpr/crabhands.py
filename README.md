@@ -32,7 +32,10 @@ crabhands.py is a Python script that creates and maintains a Spotify playlist of
    pip install -r requirements.txt
    ```
 
-5. **First run**  
+5. **First run**
+   ```sh
+   python3 ./crabhands.py
+   ```
    You will need to allow permissions via Spotify log-in once for the script to function. A browser window should pop up. 
 
    For multi-account setup: It is necessary to authenticate each account in a separate browser window and give the script the redirect URL per account. 
@@ -50,7 +53,7 @@ crabhands.py is a Python script that creates and maintains a Spotify playlist of
    export SPOTIFY_CLIENT_ID='your_client_id'
    export SPOTIFY_CLIENT_SECRET='your_client_secret'
    export SPOTIFY_REDIRECT_URI='http://127.0.0.1:1815'
-   python crabhands.py --track-freshness 
+   python crabhands.py --track-freshness 2
    ```
 
    Make the script executable:
