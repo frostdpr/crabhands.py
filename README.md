@@ -65,9 +65,9 @@ crabhands.py is a Python script that creates and maintains a Spotify playlist of
    ```sh
    crontab -e
    ```
-   Add a line to run the script daily at 8:00 AM (adjust the path as needed):
+   Add a line to run the script daily at 1:00 AM (adjust the path as needed):
    ```
-   0 8 * * * /path/to/crabhands/run_crabhands.sh >> /path/to/crabhands/cron.log 2>&1
+   0 1 * * * /path/to/crabhands/run_crabhands.sh >> /path/to/crabhands/cron.log 2>&1
    ```
 ### On Windows (using Task Scheduler)
 
@@ -95,4 +95,6 @@ crabhands.py is a Python script that creates and maintains a Spotify playlist of
 
 - `--user-ids id1,id2,...`  
   Comma-separated list of Spotify user IDs to process (advanced/multi-user use)
+
+  Note that if you want to run this for multiple users you will need to do the authentication process for each of them, in addition to adding each user under your Spotify Developer app on the web dashboard. 
 
