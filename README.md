@@ -67,7 +67,7 @@ crabhands.py is a Python script that creates and maintains a Spotify playlist of
    ```
    Add a line to run the script daily at 1:00 AM (adjust the path as needed):
    ```
-   0 1 * * * /path/to/crabhands/run_crabhands.sh >> /path/to/crabhands/cron.log 2>&1
+   0 1 * * * /path/to/crabhands/run_crabhands.sh
    ```
 ### On Windows (using Task Scheduler)
 
