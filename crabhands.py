@@ -11,19 +11,19 @@ import argparse
 
 def log_and_print_info(message):
     logger.info(message)
-    print(f"[INFO]: {message}")
+    print(f"[INFO] {message}")
 
 def log_and_print_warning(message):
     logger.warning(message)
-    print(f"[WARNING]: {message}")
+    print(f"[WARNING] {message}")
 
 def log_and_print_error(message):
     logger.error(message)
-    print(f"[ERROR]: {message}")
+    print(f"[ERROR] {message}")
 
 def log_and_print_critical(message):
     logger.critical(message)
-    print(f"[CRITICAL]: {message}")
+    print(f"[CRITICAL] {message}")
 
 def load_user_cache(cache_file):
     if os.path.exists(cache_file):
@@ -307,4 +307,4 @@ if __name__ == "__main__":
         # Save user cache
         save_user_cache(user_cache, cache_file)
 
-        log_and_print_info(f"Script completed at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    log_and_print_info(f"Script completed at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
