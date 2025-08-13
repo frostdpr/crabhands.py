@@ -5,7 +5,7 @@ crabhands.py is a Python script that creates and maintains a Spotify playlist of
 ## Features
 
 - Makes a playlist called crabhands that is populated with new tracks from artists that you follow.
-- Automation via crontab or Windows Task Scheduler.
+- Automation via cron or Windows Task Scheduler.
 
 ## Setup
 
